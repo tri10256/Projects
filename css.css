@@ -1,0 +1,52 @@
+#parentone1 {
+
+    background:linear-gradient(60deg,cyan,blue);
+}
+
+#parentone1 .hidden-child{
+    visibility: hidden;
+}
+
+#parentone1:hover .hidden-child {
+    visibility: visible;
+}
+#parentone2{
+    background:linear-gradient(30deg,pink,cyan);
+}
+#parentone2 .hidden-child2{
+    visibility: hidden;
+}
+#parentone2:hover .hidden-child2{
+    visibility: visible;
+}
+#parenttwo1{
+    background:linear-gradient(-60deg,blue,cyan);
+}
+#parenttwo1 .hidden-child{
+    visibility: hidden;
+    background:linear-gradient(-60deg,blue,cyan);
+}
+
+#parenttwo1:hover .hidden-child {
+    visibility: visible;
+}
+#parenttwo2{
+    background:linear-gradient(30deg,pink,red);
+    
+}
+#parenttwo2 .hidden-child2{
+    visibility: hidden;
+}
+#parenttwo2:hover .hidden-child2{
+    visibility: visible;
+}
+ div p{
+    color:red;
+}
+div{
+    color:blue;
+}
+div+p{
+    color:green;
+}
+ 
